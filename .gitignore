@@ -1,0 +1,10 @@
+config.json
+config.tmp
+.venv/
+static/vendor/
+__pycache__/
+*.py[cod]
+*.log
+*.zip
+*.cursor-backup
+.DS_Store
