@@ -19,7 +19,7 @@ Turn your iPad or phone into a customizable control deck and an extra display fo
 ## Requirements
 
 - CachyOS or Arch Linux with **KDE Plasma on Wayland** for display extension.
-- A phone/tablet browser that can run the bundled noVNC version. Very old Safari versions are not guaranteed.
+- A phone/tablet browser that can run the installed noVNC version. Very old Safari versions are not guaranteed.
 - PC and tablet on the same trusted home network. Ethernet on the PC and strong Wi-Fi on the tablet are recommended.
 
 Windows/macOS hosts and other Linux desktops are not supported by this beta’s display mode. VNC is intended for chat, documents and utility windows; expect latency with games/video. Audio is not streamed.
@@ -112,3 +112,5 @@ Tests cover pairing, layout validation/persistence, authorization, process handl
 ## License and credits
 
 Side Panel is [MIT licensed](LICENSE). KDE Krfb, [noVNC](https://github.com/novnc/noVNC) and [websockify](https://github.com/novnc/websockify) retain their own licenses. Dependencies are downloaded separately; the installer preserves noVNC’s license files. This project is not affiliated with Apple or Elgato.
+
+See [Third-party notices](THIRD_PARTY_NOTICES.md) for license scope, the MPL-covered cursor modification and source access. See [Licensing review](LICENSING_REVIEW.md) for audit limits and unresolved branding checks.
